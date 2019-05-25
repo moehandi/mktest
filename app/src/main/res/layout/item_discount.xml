@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="5">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_weight="3"
+        android:drawableLeft="@drawable/ic_percent"
+        android:drawablePadding="@dimen/text_margin"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:text="@string/text_lbl_title"
+        android:textAppearance="?attr/textAppearanceListItem" />
+
+    <TextView
+        android:id="@+id/tv_discount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/text_margin"
+        android:layout_weight="3"
+        android:text="@string/text_lbl_discounts"
+        android:textAppearance="?attr/textAppearanceListItem" />
+</LinearLayout>
